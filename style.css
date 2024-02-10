@@ -5,6 +5,7 @@
   --white: #fff;
   --light-color: #666;
   --light-bg: #eee;
+  --blue:
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   --border: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
@@ -431,7 +432,7 @@ section {
 
 .home .swiper-button-next:hover,
 .home .swiper-button-prev:hover {
-  background: var(--yellow);
+  background: var(--blue);
 }
 
 .home .swiper-button-next::after,
@@ -480,7 +481,7 @@ section {
 
 .about .row .content p {
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--blue);
   line-height: 2;
   padding: 1rem 0;
 }
@@ -505,13 +506,13 @@ section {
 
 .about .box-container .box h3 {
   font-size: 4rem;
-  color: var(--black);
+  color: var(--blue);
   text-transform: capitalize;
 }
 
 .about .box-container .box p {
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--blue);
   line-height: 2;
   padding-top: 0.5rem;
 }
@@ -531,7 +532,7 @@ section {
 .services .box-container .box {
   text-align: center;
   padding: 3rem;
-  background: var(--white);
+  background: var(--blue);
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
   border: var(--border);
